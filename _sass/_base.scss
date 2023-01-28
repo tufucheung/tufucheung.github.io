@@ -51,7 +51,9 @@ ul, ol, dl, figure,
 hr {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
-  color: rgba(0,0,0,0.1);
+  border-color: rgba(0,0,0,0.08);
+  border-width: 0.1px;
+  border-style: solid;
 }
 
 /**
