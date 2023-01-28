@@ -235,6 +235,7 @@
   display: block;
   @include relative-font-size(1.0);
   color: rgba(0, 0, 0, 0.8);
+  font-weight: $base-font-weight;
 }
 
 .post-link:hover {
