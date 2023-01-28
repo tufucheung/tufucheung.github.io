@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: post
 title: 丢伞
 
 ---
