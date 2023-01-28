@@ -12,7 +12,7 @@ description: >
 
 # Build settings
 
-theme: minimook
+# theme: minimook
 
 plugins:
   - jekyll-feed
