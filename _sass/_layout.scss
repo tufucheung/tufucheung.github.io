@@ -123,7 +123,7 @@
  */
 .site-footer {
   padding: $spacing-unit 0;
-  color: rgba(0, 0, 0, 0.4);
+  color: $border-color-02;
 }
 
 .footer-heading {
@@ -226,7 +226,7 @@
 }
 
 .post-meta {
-  color: rgba(0, 0, 0, 0.4);
+  color: $border-color-02;
   @include relative-font-size(1);
 }
 
@@ -234,13 +234,13 @@
 .post-link:visited {
   display: block;
   @include relative-font-size(1.0);
-  color: rgba(0, 0, 0, 0.8);
+  color: $text-color;
   font-weight: $base-font-weight;
 }
 
 .post-link:hover {
   text-decoration: none;
-  color: rgba(0, 0, 0, 1.0);
+  color: $text-color;
 }
 
 
