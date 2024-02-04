@@ -3,5 +3,5 @@
 ---
 
 @import
-  "skins/{{ site.minimook.skin | default: 'classic' }}",
+  "skins/{{ site.minimook.skin | default: 'dark' }}",
   "initialize";
