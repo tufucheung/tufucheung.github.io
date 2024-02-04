@@ -14,7 +14,7 @@ $lm-brand-color:           #828282 !default;
 $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
 $lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
 
-$lm-site-title-color:      $lm-brand-color-dark !default;
+$lm-site-title-color:      $lm-text-color !default;
 
 $lm-text-color:            #111111 !default;
 $lm-background-color:      #fdfdfd !default;
@@ -110,7 +110,7 @@ $dm-brand-color:           #999999 !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
 $dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
 
-$dm-site-title-color:      $dm-brand-color-light !default;
+$dm-site-title-color:      $dm-text-color !default;
 
 $dm-text-color:            #bbbbbb !default;
 $dm-background-color:      #181818 !default;
