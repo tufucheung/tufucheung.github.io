@@ -16,11 +16,11 @@ p {
     margin-bottom: 0px;
 }
 #info-name {
-    color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 0.80);
     font-family: "Newsreader", serif;
     font-size: 16px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 100%;
     padding-bottom: 32px;
 }
