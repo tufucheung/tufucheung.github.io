@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Gallery Modern';
-    src: url('assets/fonts/GalleryModern.otf') format('otf');
+    src: url('../assets/fonts/GalleryModern.otf') format('otf');
 }
 body {
     max-width: 480px;
