@@ -2,7 +2,7 @@ body {
     max-width: 480px;
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 160px;
+    margin-top: 120px;
     margin-bottom: 120px;
     font-family: "Ubuntu Mono", monospace;
     font-size: 16px;
@@ -17,12 +17,12 @@ p {
 }
 #info-name {
     color: rgba(0, 0, 0, 0.80);
-    font-family: "Newsreader", serif;
+    font-family: "Ubuntu Mono", monospace;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 100%;
-    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 8px;
 }
 .info-header {
     margin-bottom: 96px;
@@ -35,13 +35,13 @@ h3 {
     font-weight: 400;
     line-height: 150%;
     margin-top: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 .info-row {
     color: rgba(0, 0, 0, 0.80);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 a {
