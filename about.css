@@ -19,7 +19,7 @@ body {
     margin-right: auto;
     margin-top: 120px;
     margin-bottom: 120px;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Space Mono", monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -32,7 +32,7 @@ p {
 }
 #info-name {
     color: var(--primary-color);
-    font-family: "Roboto Mono", monospace;
+    font-family: "Space Mono", monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
