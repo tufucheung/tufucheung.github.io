@@ -6,8 +6,8 @@
   --minima-text-color: #303030;
   --minima-background-color: #f2f2f2;
   --minima-code-background-color: #eeeeff;
-  --minima-link-base-color: #2a7ae2;
-  --minima-link-visited-color: #1756a9;
+  --minima-link-base-color: #303030;
+  --minima-link-visited-color: #0a0a0a;
   --minima-link-hover-color: #303030;
   --minima-border-color-01: #e8e8e8;
   --minima-border-color-02: #898989;
@@ -221,8 +221,8 @@
     --minima-text-color: #bbbbbb;
     --minima-background-color: #181818;
     --minima-code-background-color: #212121;
-    --minima-link-base-color: #79b8ff;
-    --minima-link-visited-color: #79b8ff;
+    --minima-link-base-color: #bbbbbb;
+    --minima-link-visited-color: #bbbbbb;
     --minima-link-hover-color: #bbbbbb;
     --minima-border-color-01: #404040;
     --minima-border-color-02: #626262;
@@ -532,7 +532,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: var(--minima-link-base-color);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   -webkit-tap-highlight-color: transparent;
 }
 a:visited {
@@ -543,7 +544,7 @@ a:hover {
   text-decoration: underline;
 }
 .social-media-list a:hover, .pagination a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .social-media-list a:hover .username, .pagination a:hover .username {
   text-decoration: underline;
@@ -868,6 +869,9 @@ table td {
   font-size: 1rem;
   font-weight: 400;
   padding-bottom: 0px;
+}
+.page-intro > p {
+  margin-bottom: 0px;
 }
 
 .post-list {

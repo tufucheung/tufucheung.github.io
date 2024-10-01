@@ -220,6 +220,11 @@
   @include relative-font-size(1.0);
   font-weight: $base-font-weight;
   padding-bottom: 0px;
+
+  > p {
+    margin-bottom: 0px;
+  }
+
 }
 
 .post-list {

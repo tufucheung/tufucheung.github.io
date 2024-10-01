@@ -118,7 +118,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-base-color;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   -webkit-tap-highlight-color: transparent;
 
   &:visited {
@@ -131,7 +132,7 @@ a {
   }
 
   .social-media-list &:hover {
-    text-decoration: none;
+    text-decoration: underline;
 
     .username {
       text-decoration: underline;
