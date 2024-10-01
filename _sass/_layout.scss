@@ -18,9 +18,9 @@
   float: left;
   position: fixed;
 
-  @include media-query($on-palm) {
-    padding-right: 45px;
-  }
+  // @include media-query($on-palm) {
+  //   padding-right: 45px;
+  // }
 
   &,
   &:visited {
@@ -208,12 +208,18 @@
 .page-heading {
   @include relative-font-size(2);
   padding-top: 118px;
-  padding-bottom: 32px;
-  font-weight: 900
+  padding-bottom: 0px;
+  font-weight: $title-font-weight;
 }
 
 .post-list-heading {
   @include relative-font-size(1.75);
+}
+
+.page-intro {
+  @include relative-font-size(1.0);
+  font-weight: $base-font-weight;
+  padding-bottom: 0px;
 }
 
 .post-list {
@@ -221,13 +227,17 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: baseline;
   }
 }
 
 .post-meta {
   color: $border-color-02;
-  @include relative-font-size(1);
+  @include relative-font-size(0.9);
+  font-family: $code-font-family;
+  font-weight: $base-font-weight;
 }
 
 .post-link,
@@ -235,11 +245,13 @@
   display: block;
   @include relative-font-size(1.0);
   color: $text-color;
-  font-weight: $base-font-weight;
+  font-weight: $medium-font-weight;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-left: 16px;
 }
 
 .post-link:hover {
-  text-decoration: none;
   color: $text-color;
 }
 
@@ -258,7 +270,7 @@
   @include relative-font-size(2);
   padding-top: 118px;
   padding-bottom: 32px;
-  font-weight: 700;
+  font-weight: $title-font-weight;
   letter-spacing: -1px;
 
   @media screen and (min-width: $on-large) {
