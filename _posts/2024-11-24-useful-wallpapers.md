@@ -3,7 +3,7 @@ layout: post
 title: Useful Wallpapers 项目
 ---
 
-![Useful Wallpapers Demo](../assets/images/usefulwallpaperoutlive.png)
+![Useful Wallpapers Demo](https://raw.githubusercontent.com/tufucheung/tufucheung.github.io/main/assets/images/usefulwallpaperoutlive.png)
 
 ### 简介
 
@@ -15,7 +15,7 @@ Quotes of Outlive 系列是 Useful Wallpapers 项目的第一次尝试。本系�
 
 Useful Wallpapers 背后的想法很简单，我每天可能会拿起手机几十上百次，如果有什么事情需要让我频繁注意到，那最好是放在手机的锁屏上。
 
-刚好最近在阅读《超越百岁》，这本书有很多值得我记下来的健康建议，然而我深知健康建议是最容易被人忽视的信息——也许我能记得一两天或者一两周，但时间一长我大概会把那些叫我做事的建议统统抛到脑后。而如果有一个声音每天都在向我重复这些建议，那我很有可能会牢记在心，从而在根本上改变认知。
+刚好最近在阅读《超越百岁》，这本书有很多值得我记下来的健康建议，然而我深知健康建议是最容易被人忽视的信息——也许我能记得一两天或者一两周，但时间一长我大概会把那些教我做事的建议统统抛到脑后。而如果有一个声音每天都在向我重复这些建议，那我很有可能会牢记在心，从而在根本上改变认知。
 
 Useful Wallpapers 在我每次拿起手机的时候就会展示一句健康建议，每小时自动更换一次。它就是那个重复的声音。我希望 Useful Wallpapers 成为一个自我洗脑的工具，它利用我对手机的成瘾，挑战大脑的遗忘机制。
 
