@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful Wallpapers 项目
+title: Useful Wallpapers
 ---
 
 ![Useful Wallpapers Demo](https://raw.githubusercontent.com/tufucheung/tufucheung.github.io/main/assets/images/usefulwallpaperoutlive.png)
