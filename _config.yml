@@ -1,6 +1,6 @@
-title: 张土福
+title: 张乔治
 author:
-  name: tufu
+  name: kiuzi
   email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -15,7 +15,6 @@ author:
 intro: >
   设计师，开发者，以及一个不希望自己只是设计师和开发者的人。
   在很慢很慢地经营着一个叫 Empty 的软件工作室。
-  近期在读何伟的新书，同样的，也是很慢很慢地读。
   这个博客囊括了我写过的大部分文章，而这里面的大部分其实都没有什么营养。所以，慎重点击。
 
 # Build settings
